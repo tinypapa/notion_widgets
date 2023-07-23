@@ -38,10 +38,10 @@ body {
     display: inline-block;
     background: white;
     margin: 1% 0;
-    color: black;
-    border: 3px solid #000000;
+    color: pink;
+    border: 3px solid #ebdad8;
     border-radius: 5px;
-    box-shadow: 2px 2px 1px 0px #000000;
+    box-shadow: 2px 2px 1px 0px #ebdad8;
     max-width: 240px;
 
   
@@ -54,16 +54,16 @@ body {
     min-height: 2em;
     margin: 0.8%;
     border-radius: 15%;
-    border: 0.08em solid #000;
+    border: 0.08em solid #ebdad8;
     font-family: monospace;
     background: white;
-    box-shadow: 0.03em  0.03em 0.01em 0px #000000;
+    box-shadow: 0.03em  0.03em 0.01em 0px #ebdad8;
 
 
 }
 
 .calculator .accent{
-   background: #f3fff3;  background: #f3fff3;;
+   background: #f5eeed;  background: #f5eeed;;
 }
 
 .calculator .space {
@@ -82,8 +82,8 @@ body {
 
 .calculator button:hover,
 #backspace:hover {
-  background: #f3fff3;
-  color:#000000;
+  background: #f5eeed;
+  color:#ebdad8;
   transform: scale(0.9);
   border-radius: 20%;
 
@@ -112,7 +112,7 @@ body {
 
  #screen{
 
-    border: 3px solid #000000;
+    border: 3px solid #ebdad8;
     border-radius: 5px;
     width: 80%;
     height: 50px;
@@ -122,7 +122,7 @@ body {
     overflow-wrap: break-word;
     font-size: 30px;
     font-family: monospace;
-    background-color: #000;
+    background-color: #ebdad8;
     color: #fff;
 
 }
